@@ -32,13 +32,13 @@ These instructions will help you get a copy of the project up and running on you
 
 ### Installation
 
-1. Clone the repository to your local machine using the following command:git clone https://github.com/Younes-boutelidjane/arkanoid-game.git 
-   a. Install the necessary dependencies, including the SFML library.
-   b. Build the project using your preferred C++ compiler. Make sure to link the SFML libraries properly.
-   c. Run the executable file generated after the build.
+Clone the repository to your local machine using the following command:git clone https://github.com/Younes-boutelidjane/arkanoid-game.git 
+a. Install the necessary dependencies, including the SFML library.
+b. Build the project using your preferred C++ compiler. Make sure to link the SFML libraries properly.
+c. Run the executable file generated after the build.
    Or:
-   a. Build the Docker image using the provided Dockerfile: sudo docker build -t myproject .
-   b. Run the Docker container: sudo docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix myproject
+a. Build the Docker image using the provided Dockerfile: sudo docker build -t myproject .
+b. Run the Docker container: sudo docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix myproject
   
 
 ## Contributing
