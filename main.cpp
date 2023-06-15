@@ -4,7 +4,7 @@
 #include <SFML/Audio.hpp>
 #include <time.h>
 #include <iostream>
-#include "header_file.h"
+#include "Game.h"
 
 using namespace sf;
 
@@ -52,7 +52,7 @@ int main()
     }
 
     Font font;
-    if (!font.loadFromFile("fonts/ARIALI 1.ttf"))
+    if (!font.loadFromFile("fonts/PressStart2P-Regular.ttf"))
     {
         // Error handling if the font fails to load
 
@@ -306,7 +306,7 @@ int main()
             {
                 gameOver = true;
                 ballMoving = false;
-                text.setString("You Win! Press Space to Restart");
+                text.setString("You Won!");
                 text.setPosition(120, 200);
                 backgroundMusic.stop();
                 win.play();
