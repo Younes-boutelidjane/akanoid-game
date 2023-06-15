@@ -10,7 +10,7 @@ Arkanoid is a classic arcade game where the player controls a paddle at the bott
 
 - C++: The game is implemented in C++ programming language.
 - SFML: Simple and Fast Multimedia Library (SFML) is used for graphics, audio, and input handling.
-- Other standard libraries: Standard C++ libraries are used for various functionalities.
+- Docker: Docker is used for containerization.
 
 ## Features
 
@@ -28,16 +28,18 @@ These instructions will help you get a copy of the project up and running on you
 
 - C++ compiler
 - SFML library
+- Docker: Make sure you have Docker installed on your machine.
 
 ### Installation
 
-1. Clone the repository to your local machine using the following command:git clone https://github.com/your-username/arkanoid-game.git
-   
-2. Install the necessary dependencies, including the SFML library.
-
-3. Build the project using your preferred C++ compiler. Make sure to link the SFML libraries properly.
-
-4. Run the executable file generated after the build.
+ -- Clone the repository to your local machine using the following command:git clone https://github.com/Younes-boutelidjane/arkanoid-game.git 
+- Install the necessary dependencies, including the SFML library.
+- Build the project using your preferred C++ compiler. Make sure to link the SFML libraries properly.
+- Run the executable file generated after the build.
+# Or:
+- Build the Docker image using the provided Dockerfile: sudo docker build -t myproject .
+- Run the Docker container: sudo docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix myproject
+  
 
 ## Contributing
 
