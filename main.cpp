@@ -142,7 +142,7 @@ int main()
                        // Ball hit the bottom
                        ballMoving = false;
                        gameOver = true;
-                       text.setString("You failed! ");
+                       text.setString("You lost! ");
                         endm.play();
                        backgroundMusic.stop();
                    }
