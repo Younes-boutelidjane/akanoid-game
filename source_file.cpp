@@ -10,10 +10,10 @@ Game::Game()
 void Game::initialize()
 {
     // Load resources and set up game objects here
-    backgroundTexture.loadFromFile("C:/Users/Lenovo/Desktop/game_p/images/background.png");
-    ballTexture.loadFromFile("C:/Users/Lenovo/Desktop/game_p/images/ball.png");
-    paddleTexture.loadFromFile("C:/Users/Lenovo/Desktop/game_p/images/paddle.png");
-    blockTexture.loadFromFile("C:/Users/Lenovo/Desktop/game_p/images/block03.png");
+    backgroundTexture.loadFromFile("images/background.png");
+    ballTexture.loadFromFile("images/ball.png");
+    paddleTexture.loadFromFile("images/paddle.png");
+    blockTexture.loadFromFile("images/block03.png");
 
     backgroundSprite.setTexture(backgroundTexture);
 
